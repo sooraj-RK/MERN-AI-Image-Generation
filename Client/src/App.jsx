@@ -4,6 +4,7 @@ import {logo} from './assets';
 import { Home,CreatePost } from './pages';
 
 function App() {
+  
   return (
     <BrowserRouter>
     <header className="w-full flex justify-between 
@@ -23,7 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/create-post" element={<CreatePost/>} />
       </Routes>
-    </main>
+      </main>
     </BrowserRouter>
   )
 }  
